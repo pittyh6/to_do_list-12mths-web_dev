@@ -1,11 +1,11 @@
 # Web Developer Study
 
-## Modern React App
-### First Project: Modern UI/UX GPT-3
+## To do list App
+### Own design and code
 
 ![Begin Banner](/Documentation/top-1200x350.gif)
 
-### Eighth  Month / Sprint() 
+### Ninth  Month / Sprint() 
 * Online courses, challenges and creation of my own projects.
 
 
@@ -63,10 +63,10 @@
 
 
 <br>
-
-<p>The content belongs to <a href="https://www.youtube.com/@javascriptmastery" target="_blank">JavaScript Mastery.</a> </p>
-<p>Do not use the files from my github account, but use the original content on the <a href="https://www.youtube.com/@javascriptmastery" target="_blank">JavaScript Mastery.</a> website.</p>
-
+<!-- 
+<p>The content belongs to <a href="...." target="_blank">....</a> </p>
+<p>Do not use the files from my github account, but use the original content on the <a href="....." target="_blank">....</a> website.</p>
+-->
 <br>
 
 ![End Banner](/Documentation/botton-1200x350.gif)

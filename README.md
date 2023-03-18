@@ -2,7 +2,6 @@
 
 ## To do list App
 ### Own design and code
-https://www.figma.com/file/W4DjpEHYoMOuGiuIN27EDs/ToDoList?node-id=0%3A1&t=4iM9VxWkiv0pakER-1
 
 ![Begin Banner](/Documentation/top-1200x350.gif)
 
@@ -30,12 +29,13 @@ https://www.figma.com/file/W4DjpEHYoMOuGiuIN27EDs/ToDoList?node-id=0%3A1&t=4iM9V
 * SASS [link](https://github.com/pittyh6/freeCodeCamp-responsive_web_design-3-12Mths-WebDevStudy-2022-2023/blob/master/learnedSASS.md)
 -->
 
- ## Final projects + Result 
-<!-- * 🎯 Certification Project - Survey Form [link](https://github.com/pittyh6/freeCodeCamp-responsive_web_design-3-12Mths-WebDevStudy-2022-2023/tree/master/survey_form) 🥇 -->
+<!-- ## Final projects + Result 
+ * 🎯 Certification Project - Survey Form [link](https://github.com/pittyh6/freeCodeCamp-responsive_web_design-3-12Mths-WebDevStudy-2022-2023/tree/master/survey_form) 🥇 -->
 
 
  ## Project + Result 
-* 
+* prototype: https://www.figma.com/file/W4DjpEHYoMOuGiuIN27EDs/ToDoList?node-id=0%3A1&t=4iM9VxWkiv0pakER-1
+
 
 
 ## Previous Projects

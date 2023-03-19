@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root{
     --font: 'Pacifico';
+    --bg-color: #F5E9CF;
     --dark-green: #7DB9B6;
     --light-green: #6097b488;
     --dark-purple: #4D455D;
@@ -19,7 +20,22 @@
 body{
     box-sizing: border-box;
     font-family: var(--font);
+    background-color: var(--bg-color);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container  *{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin: auto;
 }
 button{
     font-family: var(--font);
+    font-size: 1rem;
 }

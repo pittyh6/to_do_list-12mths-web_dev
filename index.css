@@ -49,13 +49,22 @@ button {
   text-align: center;
   height: 60px;
   border: none;
+  cursor: pointer;
 }
+
 .delete,
 .add {
   min-width: 80px;
 }
 .delete {
   background-color: var(--red);
+  transition: transform 0.2s;
+}
+.delete:hover,
+.add:hover, button:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+  color: rgb(66, 55, 55);
 }
 .add {
   background-color: var(--dark-green);
@@ -77,8 +86,8 @@ input {
   height: 60px;
   min-width: 240px;
 }
-div.box-item{
-    display: inline-block;
-    text-align: left;
-    padding-left: 10px;
+div.box-item {
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
 }

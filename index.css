@@ -7,6 +7,7 @@
   --dark-purple: #4d455d;
   --light-purple: #4d455dc0;
   --red: #e96479;
+  --light-red: #e9647847;
   --light-btn: #d9d9d9;
   --dark-text: #000;
   --light-text: #e1eeddcf;
@@ -21,6 +22,9 @@ body {
   box-sizing: border-box;
   font-family: var(--font);
   background-color: var(--bg-color);
+  background-image: -webkit-linear-gradient(41deg, var(--bg-color) 50%, var(--light-red) 50%);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 .container {
   width: 60%;

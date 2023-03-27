@@ -1,8 +1,11 @@
 let input_field = $(".input-text")
-console.log(input_field)
+let add_btn = $(".add-btn")
+console.log(add_btn)
 
 
-const add_btn = document.getElementByClass("add-btn");
-add_btn.addEventListener("click",function() {
-   alert("hi")
-})
+
+// get text inserted on input_field
+function addItemList(){
+    let text = input_field.val()
+    console.log(text)
+}

@@ -23,15 +23,16 @@
 body {
   box-sizing: border-box;
   font-family: var(--font);
-  background-color: var(--bg-color);
+  background: var(--bg-color);
   overflow-x: hidden;
   /* the cross light red background color */
   background-image: -webkit-linear-gradient(
     41deg,
     var(--bg-color) 50%,
-    var(--light-red) 50%
+    var(--light-red) 55%
   );
   background-repeat: no-repeat;
+  background-size: contain;
 }
 .container {
   width: 60%;

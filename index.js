@@ -26,7 +26,9 @@ function showItemList(text) {
     box_item.className = 'box-item'
     item_list.append(box_item);
     // Create button delete
-
-
+    let delete_btn = document.createElement('button')
+    delete_btn.className = 'delete-btn'
+    item_list.append(delete_btn);
+    delete_btn.textContent = 'Delete';
     addTextList(text, box_item)
 }

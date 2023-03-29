@@ -91,6 +91,9 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
 }
+.item{
+  margin: 5px 0;
+}
 input {
   height: 60px;
   min-width: 240px;

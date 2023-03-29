@@ -1,6 +1,6 @@
 let input_field = $(".input-text")
 let add_btn = $(".add-btn")
-let show_item_listed = $(".box-item")
+//let show_item_listed = $(".box-item")
 let get_item_div = $(".items")
 
 
@@ -11,9 +11,9 @@ function getTextItemList() {
     showItemList(text)
 }
 function addTextList(text, box_item) {
-    let getText = text
-    show_item_listed.text(getText)
-    box_item.text(getText)
+    console.log(text + "add text to div")
+    //show_item_listed.text(text)
+    box_item.append(text)
 }
 
 function showItemList(text) {

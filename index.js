@@ -6,8 +6,13 @@ let get_item_div = $(".items")
 // get text inserted on input_field
 function getTextItemList() {
     let text = input_field.val()
-    showItemList(text)
-    input_field.val('')
+    if(text.length > 1) {
+        showItemList(text)
+        input_field.val('')
+    }else{
+        console.log("No text")
+    }
+    
 }
 function addTextList(text, box_item) {
     console.log(text + "add text to div")

@@ -13,7 +13,7 @@ function getTextItemList() {
         input_field[0].style.height = "60px"
     }else{
         console.log("No text")
-        input_field[0].style.border = "3px solid var(--light-red)"
+        input_field[0].style.border = "3px solid var(--medium-red)"
         input_field[0].style.height = "54px"
     }
     

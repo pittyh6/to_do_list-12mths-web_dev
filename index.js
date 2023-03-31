@@ -41,8 +41,11 @@ function showItemList(text) {
     addTextList(text, box_item)
 }
 
+
+// Remove item from list after click button delete
 $(document).ready(function(){
-    $(".elements").on('click', ".delete-btn", function(){
-        alert("Delete clicked")
+    $(".elements").on('click', ".delete-btn", function(e){
+        console.log(e.target.parentNode);
+        e.target.parentNode.remove()
     })
 })

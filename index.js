@@ -1,25 +1,26 @@
 let input_field = $(".input-text")
 let add_btn = $(".add-btn")
 let get_item_div = $(".items")
+// delete button for delete item list (red button)
+// let delete_btn = ""
 
 
 // get text inserted on input_field
 function getTextItemList() {
     let text = input_field.val()
-    if(text.length > 1) {
+    if (text.length > 1) {
         showItemList(text)
         input_field.val('')
         input_field[0].style.border = "none"
         input_field[0].style.height = "60px"
-    }else{
+    } else {
         console.log("No text")
         input_field[0].style.border = "3px solid var(--medium-red)"
         input_field[0].style.height = "54px"
     }
-    
+
 }
 function addTextList(text, box_item) {
-    console.log(text + "add text to div")
     box_item.append(text)
 }
 
@@ -39,3 +40,17 @@ function showItemList(text) {
     delete_btn.textContent = 'Delete';
     addTextList(text, box_item)
 }
+
+$('.add-btn').on('clickDelete', function () {
+    alert("delete-btn clicked")
+})
+$('.add-btn').click(function () {
+    $(this).trigger('clickDelete')
+})
+
+
+
+// function notify() {
+//     alert("clicked");
+// }
+// $(".add-btn").on("click", notify);

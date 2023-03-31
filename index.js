@@ -41,16 +41,8 @@ function showItemList(text) {
     addTextList(text, box_item)
 }
 
-$('.add-btn').on('clickDelete', function () {
-    alert("delete-btn clicked")
+$(document).ready(function(){
+    $(".elements").on('click', ".delete-btn", function(){
+        alert("Delete clicked")
+    })
 })
-$('.add-btn').click(function () {
-    $(this).trigger('clickDelete')
-})
-
-
-
-// function notify() {
-//     alert("clicked");
-// }
-// $(".add-btn").on("click", notify);

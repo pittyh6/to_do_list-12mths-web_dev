@@ -35,6 +35,22 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+nav{
+  width: 60%;
+  margin: 20px auto -45px;
+  
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: var(--dark-text);
+  font-size: 1.5rem;
+}
 .container {
   width: 60%;
   margin: -30px auto;

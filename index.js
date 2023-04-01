@@ -40,12 +40,16 @@ function showItemList(text) {
     delete_btn.textContent = 'Delete';
     addTextList(text, box_item)
 }
-
+// mark item list as done
+$(document).ready(function() {
+    $('.elements').on('click', '.box-item', function(e){
+        e.target.style.textDecoration = 'line-through';
+    })
+})
 
 // Remove item from list after click button delete
 $(document).ready(function(){
     $(".elements").on('click', ".delete-btn", function(e){
-        console.log(e.target.parentNode);
         e.target.parentNode.remove()
     })
 })

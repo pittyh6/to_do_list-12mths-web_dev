@@ -35,6 +35,12 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+.hide{
+  display: none;
+}
+.display{
+  display: block;
+}
 /* navbar */
 nav{
   width: 60%;
@@ -43,14 +49,16 @@ nav{
 .dropdown{
   display: flex;
   justify-content: center;
-}
-.dropdown-content{
-  display: none
+  flex-wrap: wrap;
 }
 .drop-btn{
   background-color:var(--dark-purple);
   color: var(--light-text);
-  width: 50%;
+  width: 100%;
+}
+.dropdown-content{
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 a{
   text-decoration: none;

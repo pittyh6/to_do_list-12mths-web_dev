@@ -56,10 +56,6 @@ nav{
   color: var(--light-text);
   width: 100%;
 }
-.dropdown-content{
-  /* display: flex;
-  flex-wrap: wrap; */
-}
 a{
   text-decoration: none;
   color: var(--dark-text);

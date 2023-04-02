@@ -65,6 +65,7 @@ nav{
   /* justify-content: center; */
   flex-wrap: wrap;
   background-color: var(--light-purple);
+  width: 100%;
 }
 a{
   text-decoration: none;

@@ -35,16 +35,22 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+/* navbar */
 nav{
   width: 60%;
   margin: 20px auto -45px;
-  
 }
-ul{
+.dropdown{
   display: flex;
-  justify-content: flex-end;
-  text-decoration: none;
-  list-style: none;
+  justify-content: center;
+}
+.dropdown-content{
+  display: none
+}
+.drop-btn{
+  background-color:var(--dark-purple);
+  color: var(--light-text);
+  width: 50%;
 }
 a{
   text-decoration: none;

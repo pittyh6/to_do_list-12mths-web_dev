@@ -39,7 +39,7 @@ body {
   display: none;
 }
 .display{
-  display: block;
+  display: flex;
 }
 /* navbar */
 nav{
@@ -50,16 +50,33 @@ nav{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  z-index: 2;
+  position: absolute;
+  width: 60%;
+  top: 10px;
 }
 .drop-btn{
-  background-color:var(--dark-purple);
-  color: var(--light-text);
+  background-color: #e964780e;
+  color: var(--dark-purple);
   width: 100%;
+}
+.dropdown-content{
+  /* display: flex; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  background-color: var(--light-purple);
 }
 a{
   text-decoration: none;
-  color: var(--dark-text);
+  color: var(--light-text);
   font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+a:hover{
+  transform: scale(1.1);
+  border-radius: 5px;
+  color: rgb(66, 55, 55);
 }
 .container {
   width: 60%;

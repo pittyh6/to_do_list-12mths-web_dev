@@ -48,7 +48,7 @@ nav{
 }
 .dropdown{
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   z-index: 2;
   position: absolute;
@@ -67,17 +67,26 @@ nav{
   background-color: var(--light-purple);
   width: 100%;
 }
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 a{
   text-decoration: none;
   color: var(--light-text);
   font-size: 1.5rem;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 a:hover{
   transform: scale(1.1);
   border-radius: 5px;
   color: rgb(66, 55, 55);
+}
+.delete-btn-list{
+  width: 100%;
+  background-color: var(--red);
 }
 .container {
   width: 60%;

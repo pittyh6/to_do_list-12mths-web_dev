@@ -62,22 +62,26 @@ nav{
 }
 .dropdown-content{
   /* display: flex; */
-  /* justify-content: center; */
+  justify-content: center;
   flex-wrap: wrap;
   background-color: var(--light-purple);
   width: 100%;
+
 }
 .list{
-  display: flex;
+  /* display: flex !important;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(2, 70%);
 }
 a{
   text-decoration: none;
   color: var(--light-text);
   font-size: 1.5rem;
-  width: 80%;
-  text-align: center;
+  width: 100%;
+  text-align: left;
+  grid-column-start: 1;
 }
 a:hover{
   transform: scale(1.1);
@@ -87,6 +91,10 @@ a:hover{
 .delete-btn-list{
   width: 100%;
   background-color: var(--red);
+  grid-column-start: 3;
+  /* grid-column-end: 4; */
+  text-align: right;
+
 }
 .container {
   width: 60%;

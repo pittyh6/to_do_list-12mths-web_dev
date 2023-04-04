@@ -53,6 +53,13 @@ $(document).ready(function(){
         e.target.parentNode.remove()
     })
 })
+// remove list from list navbar
+$(document).ready(function(){
+    $(".dropdown").on('click', ".delete-btn-list", function(e){
+        console.log(e.target)
+        e.target.parentNode.remove()
+    })
+})
 
 
 // open list items navbar

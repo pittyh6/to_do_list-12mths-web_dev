@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
 :root {
   --font: "Pacifico";
   --font-text: "Delicious Handrawn";
@@ -14,6 +14,8 @@
   --light-btn: #d9d9d9;
   --dark-text: #000;
   --light-text: #e1eeddcf;
+  --dark-input-list: #d1e5cbf1;
+  --light-input-list: #e1eeddcf;
 }
 *,
 *::after,
@@ -35,18 +37,18 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.hide{
+.hide {
   display: none;
 }
-.display{
+.display {
   display: flex;
 }
 /* navbar */
-nav{
+nav {
   width: 60%;
   margin: 20px auto -45px;
 }
-.dropdown{
+.dropdown {
   display: flex;
   /* justify-content: center; */
   flex-wrap: wrap;
@@ -55,27 +57,26 @@ nav{
   width: 60%;
   top: 10px;
 }
-.drop-btn{
+.drop-btn {
   background-color: #e964780e;
   color: var(--dark-purple);
   width: 100%;
 }
-.dropdown-content{
+.dropdown-content {
   /* display: flex; */
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--light-purple);
   width: 100%;
-
 }
-.list{
+.list {
   /* display: flex !important;
   flex-direction: row;
   justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(2, 70%);
 }
-a{
+a {
   text-decoration: none;
   color: var(--light-text);
   font-size: 1.5rem;
@@ -83,18 +84,17 @@ a{
   text-align: left;
   grid-column-start: 1;
 }
-a:hover{
+a:hover {
   transform: scale(1.1);
   border-radius: 5px;
   color: rgb(66, 55, 55);
 }
-.delete-btn-list{
+.delete-btn-list {
   width: 100%;
   background-color: var(--red);
   grid-column-start: 3;
   /* grid-column-end: 4; */
   text-align: right;
-
 }
 .container {
   width: 60%;
@@ -152,11 +152,11 @@ button:hover {
 }
 
 /* Items list elements */
-.items{
+.items {
   display: flex;
   flex-wrap: wrap;
 }
-.item{
+.item {
   margin: 5px 0;
 }
 input {
@@ -173,8 +173,9 @@ input {
   min-width: 240px;
   color: var(--light-text);
 }
-input, .box-item{
-  letter-spacing: .1rem;
+input,
+.box-item {
+  letter-spacing: 0.1rem;
   font-family: var(--font-text);
   font-size: 1.5rem;
 }
@@ -182,4 +183,11 @@ div.box-item {
   display: inline-block;
   text-align: left;
   padding-left: 10px;
+}
+.input-list-name {
+  background-color: var(--light-input-list);
+}
+
+.create-list-btn{
+  background-color: var(--dark-input-list);
 }

@@ -19,6 +19,7 @@ create_new_list_btn.click(function(){
 function createList(){
     let list_name = input_text_create_list.val()
     addListNameNavBar(list_name)
+    input_text_create_list.val('')
 }
 
 function addListNameNavBar(list_name){

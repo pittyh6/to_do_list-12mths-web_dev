@@ -44,7 +44,7 @@ function addListNameNavBar(list_name){
 
 // remove list from list navbar
 $(document).ready(function(){
-    $(".list").on('click', ".delete-btn-list", function(e){
+    $(".dropdown-content").on('click', ".delete-btn-list", function(e){
         console.log(e.target)
         e.target.parentNode.remove()
     })

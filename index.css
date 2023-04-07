@@ -74,7 +74,8 @@ nav {
   flex-direction: row;
   justify-content: space-between; */
   display: grid;
-  grid-template-columns: repeat(2, 95px);
+  width: 100%;
+  grid-template-columns: 66% 20%;
 }
 a {
   text-decoration: none;

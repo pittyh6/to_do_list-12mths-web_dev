@@ -18,6 +18,7 @@
   "homepage": "https://github.com/pittyh6/to_do_list-12mths-web_dev#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "sxpress": "^1.0.3"
   }

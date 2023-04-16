@@ -36,6 +36,7 @@ body {
   );
   background-repeat: no-repeat;
   background-size: contain;
+  background-attachment: fixed;
 }
 .hide {
   display: none !important;
@@ -100,6 +101,7 @@ a:hover {
 }
 .container {
   width: 60%;
+  /* height: 100vh; */
   margin: -30px auto;
 }
 .container * {
@@ -192,4 +194,26 @@ div.box-item {
 
 .create-list-btn{
   background-color: var(--dark-input-list);
+}
+
+
+/* TABLET VERSION */
+@media only screen and (min-width: 550px){
+  .container{
+    margin-top: -25%;
+  }
+}
+
+/* notebook VERSION */
+@media only screen and (min-width: 950px){
+  .container{
+   margin-top: -30%; 
+  }
+}
+
+/* BIG SCREEN VERSION */
+@media only screen and (min-width: 1350px){
+  .container{
+   margin-top: -35%; 
+  }
 }

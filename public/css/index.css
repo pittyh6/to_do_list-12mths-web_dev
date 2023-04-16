@@ -225,3 +225,21 @@ div.box-item {
   }
 }
 
+/* huge screen */
+@media only screen and (min-width:1650px){
+  input {
+    min-width: 550px;
+  }
+  .box-item{
+    min-width: 550px;
+  }
+}
+/* over 1650px screen */
+@media only screen and (min-width:1900px){
+  input {
+    min-width: 750px;
+  }
+  .box-item{
+    min-width: 750px;
+  }
+}

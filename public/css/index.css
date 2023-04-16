@@ -209,6 +209,12 @@ div.box-item {
   .container{
    margin-top: -30%; 
   }
+  input {
+    min-width: 400px;
+  }
+  .box-item{
+    min-width: 400px;
+  }
 }
 
 /* BIG SCREEN VERSION */
@@ -217,3 +223,4 @@ div.box-item {
    margin-top: -35%; 
   }
 }
+

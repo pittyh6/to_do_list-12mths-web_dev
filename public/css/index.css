@@ -162,6 +162,7 @@ button:hover {
 }
 .item {
   margin: 5px 0;
+  flex: 1 0 100%;
 }
 input {
   height: 60px;

@@ -46,6 +46,7 @@ body {
 }
 /* navbar */
 nav {
+  display: none;
   width: 60%;
   margin: 20px auto -45px;
 }
@@ -154,7 +155,9 @@ button:hover {
   background-color: var(--light-btn);
   margin: 20px 15px;
 }
-
+.new-list{
+  display:none;
+}
 /* Items list elements */
 .items {
   display: flex;
